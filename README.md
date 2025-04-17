@@ -2,7 +2,7 @@
 
 This project aims to build a machine learning model that can predict the likelihood of heart failure based on clinical and demographic data. It is designed to assist medical professionals in identifying high-risk patients and taking early action.
 
-## 📊 Dataset
+## 1- Dataset
 
 ِAbout The Dataset:
 
@@ -20,19 +20,19 @@ This project aims to build a machine learning model that can predict the likelih
 - ST_Slope	-> Slope of the peak exercise ST segment (Upsloping, Flat, Downsloping).
 - HeartDisease	-> Target variable: 1 = Presence of heart disease, 0 = Absence.     
 
-## 🎯 Objective
+## 2- Objective
 
 To predict the `HeartDisease` (whether the patient died during the follow-up period) using clinical features.
 
-## 🛠️ Tools & Technologies
+## 3- Tools & Technologies
 
-- Python 🐍
+- Python 
 - Pandas & NumPy
 - Scikit-learn
 - Matplotlib & Seaborn
 - Jupyter Notebook
 
-## 📈 Models Used
+## 4- Models Used
 
 - Logistic Regression
 - Random Forest
@@ -48,7 +48,7 @@ The models were evaluated using:
 - Precision, Recall, F1-score
 - ROC-AUC curve
 
-## 🔍 Exploratory Data Analysis (EDA)
+## 5- Exploratory Data Analysis (EDA)
 
 - Distribution of age and other clinical features
 - Correlation heatmap
@@ -62,7 +62,7 @@ The models were evaluated using:
 - Hyperparameter tuning using GridSearchCV
 - Cross-validation for robustness
 
-## ✅ Results
+## 6- Results
 
 | Model              | Accuracy |
 |-------------------|----------|
@@ -78,7 +78,7 @@ The models were evaluated using:
 > XGBClassifier achieved the best performance overall.
 
 
-## 📬 Contact
+## 7- Contact
 
 - **Kaggle :** [Notebook](https://www.kaggle.com/code/alaaharb7/heart-failure-prediction)
 - **LinkedIn:** [Alaa Harb](https://www.linkedin.com/in/alaa-harb7)
